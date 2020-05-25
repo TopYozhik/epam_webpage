@@ -1,0 +1,290 @@
+
+body{
+    background-image: url(bg.png);
+    background-size: 100%;
+}
+header{
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.another_button{
+    background: rgba(255, 255, 255, 0);
+    border: rgba(255, 255, 255, 0);
+    color: white;
+    font-family: sans-serif;
+}
+
+.logotip{
+    margin-top: 10px;
+    margin-left: 20%;
+   }
+.span_1{
+    color: rgba(255, 255, 255, 0.7);
+    font-family:'Arial-narrow';
+    font-size: 12pt;
+}
+.save-file{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6px;
+    font-weight: bold;
+    font-family:'Gill Sans',sans-serif;
+    font-size: 12pt;
+    color: white;
+    align-self: center;
+    height: 40px;
+    width: 150px;
+    border-radius: 36px;
+    background-color: rgb(41, 57, 104);
+    border-color: rgb(41, 57, 104);
+    cursor: pointer;
+}
+.div_but{
+    margin-right: 20%;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 10px;
+}
+.div_2{
+    margin-right: 20%;
+    margin-top: 40%;
+    margin-left: 20%;
+}
+.magglass{
+    margin-left: 25%;
+}
+
+.div_1{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.h1_1{
+    color: white;
+    font-family:'Gill Sans',sans-serif;
+    font-size: xx-large ;
+
+}
+.h1_6{
+    color: rgb(56, 84, 144);
+    font-family:'Gill Sans',sans-serif;
+    font-size: xx-large ;
+}
+.h1_2{
+    opacity: 0.8;
+    position: relative;
+    color: rgb(19, 72, 141);
+    font-family:'Gill Sans',sans-serif;
+    font-size: 70pt;
+    z-index: 1;
+}
+.h1_3{
+    color:  rgb(87, 132, 253) ;
+    font-family:'Gill Sans',sans-serif;
+    z-index: 2;
+    position: relative;
+    right: -20px;
+    top: -120px;
+    color: black;
+    font-size: xx-large;
+}
+.mcstyle{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    right: -190px;
+    top: -200px;
+}
+
+.div_5{
+    margin-right: -3%;
+    margin-left: -3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: rgb(240, 245, 252);
+    position: relative;
+    top: -300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.lorem{
+    font-size: large;
+    flex-wrap: wrap;
+    font-family:'Gill Sans',sans-serif;
+    width: 45%;
+    position: relative;
+    text-align: left;
+    top: -620px;
+}
+.lorem2{
+    font-family:'Gill Sans',sans-serif;
+    width: 45%;
+    position: relative;
+    font-size: large;
+    top: -620px; 
+}
+.lorem3{
+    font-family:'Gill Sans',sans-serif; 
+    font-size: large;
+    top: -620px; 
+    margin-top: 200px;
+}
+.checker{
+    margin-top: 3%;
+    margin-right: 2%;
+}
+.readmroe{
+    position: relative;
+    top: -550px;
+    margin-top: 6px;
+    font-weight: bold;
+    font-family:'Gill Sans',sans-serif;
+    font-size: 12pt;
+    color: white;
+    align-self: center;
+    height: 40px;
+    width: 150px;
+    border-radius: 36px;
+    background-color: rgb(41, 57, 104);
+    border-color: rgb(41, 57, 104);
+    cursor: pointer;
+}
+.div_3{
+    margin-right: -3%;
+    margin-left: -3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: rgb(240, 245, 252);
+    position: relative;
+    top: -200px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.h1_4{
+    font-family:'Gill Sans',sans-serif;
+    color: rgb(51, 81, 161);
+}
+.lorem1{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 12pt;
+    font-family:'Arial-narrow';
+}
+.gimemoney{
+    display: flex;
+    justify-content: space-around;
+}
+.cases{ 
+    cursor: pointer;
+    border-radius: 0px;
+    border-color: white;
+    background-color: white;
+    margin-top: 10px;
+    width: 20%;
+    height: 200px;
+}
+
+
+.cases:hover {background-color:rgb(240, 245, 252);
+    border-color: rgb(240, 245, 252);}
+
+.cases:active {
+      background-color: rgb(240, 245, 252);
+      border-color: rgb(240, 245, 252);
+      transform: translateY(4px);
+    }
+
+.plan_name{
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    position: relative;
+    font-size: small;
+    font-family:'Gill Sans',sans-serif;
+
+}
+.plan_price{
+    color: rgb(41, 57, 104);
+    font-family:'Gill Sans',sans-serif;
+    position: relative;
+    right: 10px;
+    font-size: xx-large;
+}
+.plan_timing{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 5700;
+    font-family:'Arial-narrow';
+    position: relative;
+    right: -50px;
+    top: -53px;
+
+}
+.plan_timing_another{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    font-family:'Arial-narrow';
+    position: relative;
+    right: -40px;
+    top: -53px;
+}
+.plan_about{
+    margin-top: -55px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    font-family:'Arial-narrow';
+
+}
+.call{
+    margin-top: 5%;
+}
+.contact{
+margin-top: 5%;
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+align-items: flex-end;
+font-weight: 500;
+font-family:'Arial-narrow';
+}
+.mail{
+font-size: 13pt;
+font-weight: 500;
+font-family:'Arial-narrow';
+}
+.asks{
+    font-family:'Gill Sans',sans-serif;
+    color: rgb(51, 81, 161);
+}
+.footer_tipa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.h1_5{
+    font-family:'Gill Sans',sans-serif;
+    color: rgb(51, 81, 161);
+}
+.lorem_3{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    font-family:'Arial-narrow';
+    padding-bottom: 10px;
+}
+footer{
+    margin-top: 300px;
+}
+
+
